@@ -64,7 +64,7 @@ print(int(b)+int(c))
  
 
 
-strings 
+# strings 
 name = "harry"
 friend= "garry"
 sentence= '''hey harry
@@ -88,7 +88,7 @@ print(name[:]) #include whole length
 print(len(name))
 print(name[-3:-1])
 
-if else  
+# if else  
 
 num= int(input("enter the value of num: "))
 
@@ -102,7 +102,7 @@ if(num!=0):
 else:
     print("number is zero")
 
-project 
+# project 
 
 import time
 
@@ -120,7 +120,7 @@ elif(hours>15 and hours<=19 ):
 else:
     print("GOOD NIGHT CHAMP")
 
-switch case 
+# switch case 
 
 age=int(input("enter your age: "))
 
@@ -134,7 +134,7 @@ match age:
     case _:
         print("you're an adult")
 
-for loop
+# for loop
 
 name="kapil is a joker"
 for alps in name:
@@ -193,5 +193,7 @@ for i in range(1,6):
     for j in range(1,i):
         print(j, end=" ")
     print(" ")
+
+
 
 
